@@ -44,8 +44,8 @@ subprojects {
 tasks.register("copyPlugin", Copy::class) {
     doFirst { println("copying built plugin ...") }
 
-    from("build/libs/" + "(플러그인 이름)") // 예 : paper-sample-0.0.1.jar
-    into("(서버 플러그인 파일 경로)") // 예: ~/PluginServer/plugins
+    from("stats/build/libs/" + "stats-0.0.1.jar") // 예 : paper-sample-0.0.1.jar
+    into("C:/Users/s7302/IdeaProjects/MinecraftServer/PluginServer/plugins") // 예: ~/PluginServer/plugins
 
     doLast { println("copied built plugin!") }
 }
