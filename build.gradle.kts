@@ -45,7 +45,7 @@ tasks.register("copyPlugin", Copy::class) {
     doFirst { println("copying built plugin ...") }
 
     from("stats/build/libs/" + "stats-0.0.1.jar") // 예 : paper-sample-0.0.1.jar
-    into("C:/Users/s7302/IdeaProjects/MinecraftServer/PluginServer/plugins") // 예: ~/PluginServer/plugins
+    into("C:/Users/s7302/IdeaProjects/MinecraftServer/Command/plugins") // 예: ~/PluginServer/plugins
 
     doLast { println("copied built plugin!") }
 }

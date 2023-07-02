@@ -1,7 +1,9 @@
-main: io.github.sinhajun.plugin
+main: io.github.sinhajun.plugin.Plugin
 name: $name
 version: $version
-api-version: 1.20
+api-version: '1.20'
+author: D75KMD
+website: https://github.com/sinhajun
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:1.8.21
   - org.jetbrains.kotlin:kotlin-reflect:1.8.21
